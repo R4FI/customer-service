@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/rafi/Asp.Net Backend/CustomerSoapService/CustomerSoapService.csproj": {}
+  },
+  "projects": {
+    "/Users/rafi/Asp.Net Backend/CustomerSoapService/CustomerSoapService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rafi/Asp.Net Backend/CustomerSoapService/CustomerSoapService.csproj",
+        "projectName": "CustomerSoapService",
+        "projectPath": "/Users/rafi/Asp.Net Backend/CustomerSoapService/CustomerSoapService.csproj",
+        "packagesPath": "/Users/rafi/.nuget/packages/",
+        "outputPath": "/Users/rafi/Asp.Net Backend/CustomerSoapService/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/rafi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "SoapCore": {
+              "target": "Package",
+              "version": "[1.2.1.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/rafi/.dotnet/sdk/9.0.318/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
